@@ -51,7 +51,8 @@ nav a:hover{
 
 #quem{
     background-color:var(--cor4);
-    width: 30%;
+    width: 10%;
+    position: relative;
 }
 
 #projetos{
@@ -91,5 +92,21 @@ div > a:hover{
     text-decoration: underline;
 }
 
+#containerQuem{
+    width: 100%;
+}
+
+#quem.expandido #containerQuem{
+    width: 30%;
+}
+
+#btn{
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    border-radius: 2px solid trasparent;
+    top: 30%;
+    transform: translate(20%);
+}
 
 
